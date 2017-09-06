@@ -17,3 +17,4 @@ This is only for references only for one who have passed the courses. Copy the r
 
 
 2017.09.05 更新： 第一次课程week2 加入dataset数据。
+learning
