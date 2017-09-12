@@ -22,11 +22,11 @@ class NeuroLayer:
         self.derivative_Z = "nan"
         self.delta = "nan"
         
-    def activate(self,Z):
+    def activate(self, Z):
         A = 1.0/(1+np.exp(-Z))
         return A
         
-    def computeA(self,input_x):
+    def computeA(self, input_x):
         assert(self.weights.shape[1] == input_x.shape[0])
         self.inputs = input_x
         z=np.dot(self.weights,input_x)
